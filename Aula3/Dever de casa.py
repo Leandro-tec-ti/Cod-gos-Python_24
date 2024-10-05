@@ -13,3 +13,4 @@ guadro = aro
 print(f"Recomdamos que o tamanho do guidão seja: {Guidao} ")
 print(f"A manete que recomendamos é do tamanho: {manete}")
 print(f"O quadro terá que ser do tamanho: {guadro}")
+
