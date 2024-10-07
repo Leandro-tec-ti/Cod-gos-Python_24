@@ -19,6 +19,16 @@
 #Boolean = serve para representar valores verdadeiro (true) ou falso (false).
 #Exemplo: Aula = 10<15 programa vai rodar (true) / Aula = 10>15 o programa vai rodar (false). pq 10 não é maior que 15.
 
+# tabela: (>  Maior), (<  Menor), (>= Maior ou igual), (<= Menor ou igual), (== igual) e (!= Diferente)
+
+#if = se existir (remete a algo verdadeiro)
+
+#elif = se não (remete varias condicionais uma após a outra até que se encontre uma verdeira)
+
+#else = Caso contrário (remete ao oposto do if) ou (caso não tenha nenhuma outra  condição)
+
+
+
 
 
 
