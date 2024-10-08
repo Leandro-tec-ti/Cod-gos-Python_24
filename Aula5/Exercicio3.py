@@ -9,7 +9,7 @@ Lavarapido = int(input(f"Olá {nome} Seja bem vinda a nossa loja, temos opções
 
 if(Lavarapido == 1):
     lavagem = "Lavagem Completa "
-    valorotal = 50
+    valortotal = 50
 
 elif(Lavarapido == 2):
     lavagem = "Lavagem Básica"
@@ -20,12 +20,11 @@ pretinho = input("Sr. gostaria do pretinho no carro? ")
 
 if pretinho == "sim":
     print("certo, terá um adccional de R$ 5,00 ")
-    valortotal += 5
+    valortotal == valortotal + 5
 elif pretinho == "não" or "nao":
     print(f"Valor total: {valortotal}")   
 else:
     print(f"Ok! iremos fazer a sua lavagem solicitada. Valor Total ${valortotal}.")
 
-print
-
+print(f"O valor total do serviço é : {valortotal + 5. }")
 
