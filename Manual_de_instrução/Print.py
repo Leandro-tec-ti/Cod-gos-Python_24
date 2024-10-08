@@ -27,7 +27,7 @@
 
 #else = Caso contrário (remete ao oposto do if) ou (caso não tenha nenhuma outra  condição)
 
-
+# \n = Pular linha
 
 
 

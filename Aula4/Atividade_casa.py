@@ -14,5 +14,3 @@ if((numero % 5) == 0):
     print("este numero é divisível por 5 ")
 else:
     print("este numero não é divisível por 5 ")
-
-
