@@ -9,15 +9,15 @@ valor = int(input(f"Olá {nome }, seja bem vindo a nossa Lanchonete, temos algum
 
 
 if(valor == 1):
-    lanche = "Hamburguer " 
+    lanche = "Hamburguer" 
     Extra = 10.00
     
 elif(valor == 2):
-    lanche = "Batata Frita "
+    lanche = "Batata Frita"
     Extra = 10.00
 
 elif(valor == 3):
-    lanche = "Refrigerante "
+    lanche = "Refrigerante"
     Extra = 10.00
     
     #saber se o cliente irá querer mais um lanche
@@ -27,27 +27,27 @@ extra = input(f"Sr. seu pedido escolhido foi {lanche}. Gostaria de uma Segunda o
 if(extra == "sim") :
     print("Certo, daremos continuidade. \n ")
     kit = int(input("\n Qual seria o segundo item? \n "))
-
     if(kit == 1):
-    lanche1 = "Hamburguer "
+        lanche1 = "Hamburguer"
 
     elif(kit == 2):
-    lanche1 = "Batata frita "
+        lanche1 = "Batata frita"
 
     elif(kit == 3):
-    lanche1 = "Refrigerante "
+        lanche1 = "Refrigerante"
+
+    extra2 = input(f" seu pedido é {lanche} com {lanche1}, seu pedido total esta dando R${Extra + Extra} \n\n Por apenas mais R$2.00 poderá levar um Combo com todos os itens, gostaria de aproveitar? \n ")
+    if extra2 == "sim":
+        print(" seu pedido será feito, valor total do pedido é de R$ 22.00 \n")
+
+    else:
+        print(f" Seu pedido será feito, valor total do pedido é R${Extra + Extra}\n ")
 else:
-    print("ok! faremos seu pedido ")
+    print("ok! faremos seu pedido \n")
+    extra2 = input(f" seu pedido é {lanche} seu pedido total esta dando R${Extra} \n Por apenas R$12.00 poderá levar um Combo com todos os itens, gostaria de aproveitar? \n ")
+    if extra2 == "sim":
+        print(" seu pedido será feito, valor total do pedido é de R$ 22.00 \n")
 
-    #oferecendo o lanche
-
-
-extra2 = input(f" seu pedido é {lanche1} com {lanche} seu pedido total esta dando R${Extra + Extra} \n Por apenas R$2.00 poderá levar um Combo com todos os itens, gostaria de aproveitar? \n")
-
-
-if extra2 == "sim":
-    print(" seu pedido será feito, valor total do pedido é de R$ 22.00 \n")
-
-else:
-    print(f" Seu pedido será feito, valor total do pedido é R${Extra + Extra} ")
+    else:
+        print(f" Seu pedido será feito, valor total do pedido é R${Extra} \n")
 
