@@ -9,7 +9,7 @@ valor = int(input(f"Olá {nome }, seja bem vindo a nossa Lanchonete, temos algum
 
 
 if(valor == 1):
-    lanche = "Hamburguer "
+    lanche = "Hamburguer " 
     Extra = 10.00
     
 elif(valor == 2):
@@ -24,26 +24,23 @@ elif(valor == 3):
 extra = input(f"Sr. seu pedido escolhido foi {lanche}. Gostaria de uma Segunda opção de lanche? \n ")
 
 
-if extra == "sim" :
+if(extra == "sim") :
     print("Certo, daremos continuidade. \n ")
+    kit = int(input("\n Qual seria o segundo item? \n "))
 
+    if(kit == 1):
+    lanche1 = "Hamburguer "
 
+    elif(kit == 2):
+    lanche1 = "Batata frita "
+
+    elif(kit == 3):
+    lanche1 = "Refrigerante "
 else:
     print("ok! faremos seu pedido ")
 
     #oferecendo o lanche
 
-kit = int(input("\n Qual seria o segundo item? \n "))
-
-
-if(kit == 1):
-    lanche1 = "Hamburguer "
-
-elif(kit == 2):
-    lanche1 = "Batata frita "
-
-elif(kit == 3):
-    lanche1 = "Refrigerante "
 
 extra2 = input(f" seu pedido é {lanche1} com {lanche} seu pedido total esta dando R${Extra + Extra} \n Por apenas R$2.00 poderá levar um Combo com todos os itens, gostaria de aproveitar? \n")
 
