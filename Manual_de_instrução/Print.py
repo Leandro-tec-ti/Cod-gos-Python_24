@@ -1,6 +1,8 @@
 #print = serve para imprimir ou aparecer as informaçoes na tela.
 #Exemplo: print("Seja Bem vindo a nossa Empresa")
 
+#CTRL + C = interrompe a execução do código no python
+
 #(=) igual no python é lido como recebe.
 #Eexmplo: nome = "Josefina".  tudo quer for utilizado ("nome" será Josefina)
 
@@ -29,6 +31,12 @@
 
 # \n = Pular linha
 
+#while = pode ser lido como "enquanto"  enquanto uma codição for verdadeira, o código "dentro" dele irá executar. podemos chamar de Loop!  (cuidado com loop infinito.)
 
+#import time = importação da biblioteca do python
+
+#time.sleep(1) = é o tempo utilizado em segundos para a execurtar uma proxima contagem.
+
+#.lower() = deixa todas as letras em minúculos.
 
 
