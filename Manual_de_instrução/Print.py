@@ -31,6 +31,8 @@
 
 # \n = Pular linha
 
+# end=""  = ele não vai quebrar a linha no terminal
+
 #while = pode ser lido como "enquanto"  enquanto uma codição for verdadeira, o código "dentro" dele irá executar. podemos chamar de Loop!  (cuidado com loop infinito.)
 
 #import time = importação da biblioteca do python
@@ -39,4 +41,8 @@
 
 #.lower() = deixa todas as letras em minúculos.
 
+# IMPORTANTE: ORDEM DE PROCEDENCIA, () PRIMEIRO SE RESOLVE O QUE ESTA DENTRO DE PARENTES
+# IMPORTANTE: ORDEM DE PROCEDENCIA, ** SEGUNDO SE RESOLVER TUDO QUE FOR POTENCIA
+# IMPORTANTE: ORDEM DE PROCEDENCIA, *  /   //  %  = TERCEIRO RESOLVER ESSAS QUESTÕES QUEM APARECER PRIMEIRO
+# IMPORTANTE: ORDEM DE PROCEDENCIA, +  -  POR ULTIMO DEIXA QUESTOES BINARIAS
 
