@@ -19,11 +19,11 @@
 
 jogador = input("Digite seu nome Jogador1? \n")
 jogador2 = input("Digite seu nome jogador2? \n")
-print(f"Bem vindo Jogador1: {jogador} e Jogador2: {jogador2} ao nosso jogo de reciclagem! \n")
+print(f"Bem vindo {jogador} e {jogador2} ao nosso jogo de reciclagem! \n")
 print("Aquele jogador que fizer o maior números de pontos será o vencedor. \n")
-print("Objetivo do jogo: recolher todo material reciclavél e não reciclável, cada material recolhido tem uma pontuação diferente. \n")
+print("Objetivo do jogo: recolher todo material reciclável e não reciclável, cada material recolhido tem uma pontuação diferente. \n")
 print("O grande vencedor ganhará: UM PAR DE INGRESSO PARA O FILME CORINGA 2")
-print("Regras do jogo: \n\n  1 = Papel: 5 pontos \n  2 = Plastico: 5 pontos \n  3 = Vidro: 5 pontos \n  4 = Metal: 7 pontos \n  5 = Organico: 10 pontos \n  6 = Não reciclavél: 10 pontos \n")
+print("Regras do jogo: \n\n  1 = Papel: \n  2 = Plastico: \n  3 = Vidro: \n  4 = Metal: \n  5 = Organico: \n  6 = Não reciclavél: \n")
 
 papel = 0 
 papel1 = 0
@@ -39,6 +39,7 @@ nao_reciclavel = 0
 nao_reciclavel1 = 0
 n2 = "sim"
 while n2 == "sim":
+#Jogador 1    
     n1 = int(input(f"{jogador}, quais são seu materiais a ser depositado? \n"))
     
     if(n1 == 1):
@@ -61,6 +62,7 @@ while n2 == "sim":
         nao_reciclavel = nao_reciclavel + 10
     else:
         print("Erro tente novamente ")
+#Jogador 2
     n2 = int(input(f"{jogador2}, quais são seus materiais a ser depositado? \n"))
     if(n2 == 1):
             print(" Você ganhou 5 pontos ")
@@ -69,7 +71,7 @@ while n2 == "sim":
         print(" Você ganhou 5 pontos ")
         plastico1 = plastico1 + 5
     elif(n2 == 3):
-        print("Você ganhou 5 pontos ")
+        print(" Você ganhou 5 pontos ")
         vidro1 = vidro1 + 5
     elif(n2 == 4):
         print(" Você ganhou 7 pontos ")
@@ -80,13 +82,16 @@ while n2 == "sim":
     elif(n2 == 6):
         print(" Você ganhou 10 pontos ")
         nao_reciclavel1 = nao_reciclavel1 + 10
-     
-      
-
-
     else:
         print("Erro tente novamente ")
-    n2 = input(f"Continuar o jogo? sim ou nao \n").lower()
+    n2 = input(f"Outra rodada? sim ou nao \n").lower()
 print(f"O resultado da reciclagem do Jogador 1 foi:\n Papel:{papel}\n Plástico:{plastico}\n Vidro:{vidro}\n Metal:{metal}\n Organico:{organico}\n não reciclavél:{nao_reciclavel}\n ")
+total1 = papel + plastico + vidro + metal + organico + nao_reciclavel
+print(f"{total1}")
 print(f"O resultado da reciclagem do Jogador 2 foi:\n Papel:{papel1}\n Plástico:{plastico1}\n Vidro:{vidro1}\n Metal:{metal1}\n Organico:{organico1}\n não reciclavél:{nao_reciclavel1}\n ")
-
+total2 = papel1 + plastico1 + vidro1 + metal1 + organico1 + nao_reciclavel1
+print(f"{total2}")
+if (total1 > total2):
+    print(f" O vencedor é o jogador: {jogador} ")
+else:
+    print(f" O vencedor é o jogador: {jogador2} ")
