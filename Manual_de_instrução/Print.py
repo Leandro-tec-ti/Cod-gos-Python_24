@@ -46,3 +46,5 @@
 # IMPORTANTE: ORDEM DE PROCEDENCIA, *  /   //  %  = TERCEIRO RESOLVER ESSAS QUESTÕES QUEM APARECER PRIMEIRO
 # IMPORTANTE: ORDEM DE PROCEDENCIA, +  -  POR ULTIMO DEIXA QUESTOES BINARIAS
 
+#FOR =  loop com pré definido
+#For "i" in range  =  Variavél auxiliar mas que pode ser utilizada   ATENÇÃO: Primeiro numero da contagem "range" é o 0.

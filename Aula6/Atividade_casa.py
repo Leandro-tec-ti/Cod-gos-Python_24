@@ -17,38 +17,76 @@
 #Programa deve repetir o processo; caso contrario o programa deve exibir um resumo da reciclagem
 #com a quantidade de materiais reciclados e a mensagem : "Obrigado por contribuir com a Reciclagem "
 
-nome = input("Qual é o seu nome? \n")
-print(f"Bem vindo {nome} ao programa de reciclagem! \n")
-print("Temos objetivo de recolher todo material reciclavél e não reciclavél, desse forma contribuímos com a natureza: \n")
+jogador = input("Digite seu nome Jogador1? \n")
+jogador2 = input("Digite seu nome jogador2? \n")
+print(f"Bem vindo Jogador1: {jogador} e Jogador2: {jogador2} ao nosso jogo de reciclagem! \n")
+print("Aquele jogador que fizer o maior números de pontos será o vencedor. \n")
+print("Objetivo do jogo: recolher todo material reciclavél e não reciclável, cada material recolhido tem uma pontuação diferente. \n")
+print("O grande vencedor ganhará: UM PAR DE INGRESSO PARA O FILME CORINGA 2")
+print("Regras do jogo: \n\n  1 = Papel: 5 pontos \n  2 = Plastico: 5 pontos \n  3 = Vidro: 5 pontos \n  4 = Metal: 7 pontos \n  5 = Organico: 10 pontos \n  6 = Não reciclavél: 10 pontos \n")
+
 papel = 0 
+papel1 = 0
 plastico = 0
+plastico1 = 0
 vidro = 0
+vidro1 = 0
 metal = 0
+metal1 = 0
 organico = 0
+organico1 = 0 
 nao_reciclavel = 0
+nao_reciclavel1 = 0
 n2 = "sim"
 while n2 == "sim":
-    n1 = int(input(" Qual material deseja descartar? \n\n  1 = Papel: \n  2 = Plastico: \n  3 = Vidro: \n  4 = Metal: \n  5 = Organico: \n  6 = Não reciclavél: \n"))
+    n1 = int(input(f"{jogador}, quais são seu materiais a ser depositado? \n"))
+    
     if(n1 == 1):
-        print(" Coloque na Lixeira Azul ")
-        papel = papel + 1
+        print(" Você ganhou 5 pontos ")
+        papel = papel + 5
     elif(n1 == 2):
-        print("Coloque na lixeira vermelha ")
-        plastico = plastico + 1
+        print(" Você ganhou 5 pontos ")
+        plastico = plastico + 5
     elif(n1 == 3):
-        print("Coloque na lixeira Verde ")
-        vidro = vidro + 1
+        print("Você ganhou 5 pontos ")
+        vidro = vidro + 5
     elif(n1 == 4):
-        print("Coloque na lixeira amarela ")
-        metal = metal + 1
+        print(" Você ganhou 7 pontos ")
+        metal = metal + 7
     elif(n1 == 5):
-        print("Coloque na lixeira Marron ")
-        organico = organico +1
+        print(" Você ganhou 10 pontos ")
+        organico = organico + 10
     elif(n1 == 6):
-        print("Coloque na lixeira cinza ")
-        nao_reciclavel = nao_reciclavel + 1
+        print(" Você ganhou 10 pontos ")
+        nao_reciclavel = nao_reciclavel + 10
     else:
         print("Erro tente novamente ")
-    n2 = input("Gostaria de continuar com a reciclagem? sim ou nao \n").lower()
-print(f"O resultado da sua reciclagem foi:\n Papel:{papel}\n Plástico:{plastico}\n Vidro:{vidro}\n Metal:{metal}\n Organico:{organico}\n não reciclavél:{nao_reciclavel}\n ")
-print("Obrigado por contribuir com a Reciclagem \n")
+    n2 = int(input(f"{jogador2}, quais são seus materiais a ser depositado? \n"))
+    if(n2 == 1):
+            print(" Você ganhou 5 pontos ")
+            papel1 = papel1 + 5
+    elif(n2 == 2):
+        print(" Você ganhou 5 pontos ")
+        plastico1 = plastico1 + 5
+    elif(n2 == 3):
+        print("Você ganhou 5 pontos ")
+        vidro1 = vidro1 + 5
+    elif(n2 == 4):
+        print(" Você ganhou 7 pontos ")
+        metal1 = metal1 + 7
+    elif(n2 == 5):
+        print(" Você ganhou 10 pontos ")
+        organico1 = organico1 + 10
+    elif(n2 == 6):
+        print(" Você ganhou 10 pontos ")
+        nao_reciclavel1 = nao_reciclavel1 + 10
+     
+      
+
+
+    else:
+        print("Erro tente novamente ")
+    n2 = input(f"Continuar o jogo? sim ou nao \n").lower()
+print(f"O resultado da reciclagem do Jogador 1 foi:\n Papel:{papel}\n Plástico:{plastico}\n Vidro:{vidro}\n Metal:{metal}\n Organico:{organico}\n não reciclavél:{nao_reciclavel}\n ")
+print(f"O resultado da reciclagem do Jogador 2 foi:\n Papel:{papel1}\n Plástico:{plastico1}\n Vidro:{vidro1}\n Metal:{metal1}\n Organico:{organico1}\n não reciclavél:{nao_reciclavel1}\n ")
+
