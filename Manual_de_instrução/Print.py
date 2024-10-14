@@ -51,7 +51,8 @@
 #FOR =  loop com pré definido
 #For "i" in range  =  Variavél auxiliar mas que pode ser utilizada   ATENÇÃO: Primeiro numero da contagem "range" é o 0.
 
-#              IMPORT MATH = Biblioteca matemática
+#                   AULAS DE MÓDULOS
+# IMPORT MATH = Biblioteca matemática
 # Ceil = arredondamento para cima do numero
 # Floor = arredondamento para baix do numero
 # trunc = vai truncar o numero, fixar um numero sem arredondar nem pra cima nem pra baixo
@@ -59,3 +60,7 @@
 # sqrt = vai calcular a raiz quadrada 
 # factorial = para calculo Fatorial
 # hypot = para calcular a hipotenusa
+
+# IMPORT RANDOM = Biblioteca para escolher numero ou nome aleatório
+# Random.choice = uma escolha de uma lista Pré definida
+# Random.shuffle = embaralhar uma lista pré definida
