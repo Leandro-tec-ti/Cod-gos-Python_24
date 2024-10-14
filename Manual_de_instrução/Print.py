@@ -29,6 +29,8 @@
 
 #else = Caso contrário (remete ao oposto do if) ou (caso não tenha nenhuma outra  condição)
 
+# :.1f = ele determina quantas casas decimais vc quer que imprima
+
 # \n = Pular linha
 
 # end=""  = ele não vai quebrar a linha no terminal
@@ -40,7 +42,7 @@
 #time.sleep(1) = é o tempo utilizado em segundos para a execurtar uma proxima contagem.
 
 #.lower() = deixa todas as letras em minúculos.
-
+#                             Base de Calculos
 # IMPORTANTE: ORDEM DE PROCEDENCIA, () PRIMEIRO SE RESOLVE O QUE ESTA DENTRO DE PARENTES
 # IMPORTANTE: ORDEM DE PROCEDENCIA, ** SEGUNDO SE RESOLVER TUDO QUE FOR POTENCIA
 # IMPORTANTE: ORDEM DE PROCEDENCIA, *  /   //  %  = TERCEIRO RESOLVER ESSAS QUESTÕES QUEM APARECER PRIMEIRO
@@ -48,3 +50,12 @@
 
 #FOR =  loop com pré definido
 #For "i" in range  =  Variavél auxiliar mas que pode ser utilizada   ATENÇÃO: Primeiro numero da contagem "range" é o 0.
+
+#              IMPORT MATH = Biblioteca matemática
+# Ceil = arredondamento para cima do numero
+# Floor = arredondamento para baix do numero
+# trunc = vai truncar o numero, fixar um numero sem arredondar nem pra cima nem pra baixo
+# pow = vai fazer o calculo de potencia (semelhante ao calculo de **)
+# sqrt = vai calcular a raiz quadrada 
+# factorial = para calculo Fatorial
+# hypot = para calcular a hipotenusa
