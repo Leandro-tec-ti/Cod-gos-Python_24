@@ -1,3 +1,4 @@
+#cursoemvideo.com
 #Dá boas vindas com nome da usuária
 
 nome = input("Qual é seu nome? \n")

@@ -1,6 +1,8 @@
 #print = serve para imprimir ou aparecer as informaçoes na tela.
 #Exemplo: print("Seja Bem vindo a nossa Empresa")
 
+#"""""" = posso usar 3 aspas para imprimir um texto grande para não precisar imprimir uma por uma
+
 #CTRL + C = interrompe a execução do código no python
 
 #(=) igual no python é lido como recebe.
