@@ -8,7 +8,7 @@ qual = input("qual gostaria de adciona? ").lower()
 poder = input("qual poder gostaria de retirar? ")
 
 pikachu = ["choque do trovão", "calda de ferro", "ataque rapido", "esquiva"]
-print("lista de de poder", pikachu)
+print("lista de poder", pikachu)
 print("Primeiro poder", pikachu[0])
 pikachu.append(f"{qual}")
 print(f"Lista de poder após adicionar {qual}", pikachu)
