@@ -1,4 +1,4 @@
-import selenium
+import 
 #O programador precisa ter conhecimento em webscrap e socket.
 
 
