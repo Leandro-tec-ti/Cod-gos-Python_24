@@ -1,0 +1,66 @@
+h1{
+    font-size: 30px;
+    color: greenyellow;
+    padding-left: 50px ;
+    text-shadow: 2px 2px;
+}
+body{
+    margin: 200px;
+}
+#Terra{
+    width: 300px;
+    height: 200px;
+    
+}
+h2{
+    font-size: 30px;
+    color: blue;
+    padding-left: 50px;
+    text-shadow: 2px 2px;
+}
+
+#Jupiter{
+    width: 200px;
+    height: 180px;
+    margin: 50px;
+    
+}
+h3{
+    font-size: 30px;
+    color: violet;
+    padding-left: 50px;
+    text-shadow: 2px 2px;
+}
+#Marte{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+h4{
+    font-size: 30px;
+    color: brown;
+    padding-left: 50px;
+    text-shadow: 2px 2px;
+}
+#Saturno{
+    width: 300px;
+    height: 250px;
+    margin: 50px;
+}
+h5{
+    font-size: 30px;
+    color: brown;
+    padding-left: 50px;
+    text-shadow: 2px 2px;
+}
+#Urano{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+#Senac_logo{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+
