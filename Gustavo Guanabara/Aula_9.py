@@ -38,7 +38,7 @@ Frase[9::3]#<<<--- Essa formula ira te dá a informação do 9 até po final, ma
 #                                         ^---x----x-- ^---x----x--- ^---x---x-- ^---x---x--
 
 #                                       Análise
-len(Frase)#<<<--- função len é o comprimento da quantidade de caracteres "casas" itilizada na variação (Frase)
+len(Frase)#<<<--- função len é o comprimento da quantidade de caracteres "casas" utilizada na variação (Frase)
 #[C] [u] [r] [s] [o]  [ ]  [e] [m]  [ ]  [V] [i] [d] [e] [o]  [ ]  [P] [y] [t] [h] [o] [n]
 # 0   1   2   3   4    5   6   7     8    9  10   11  12  13   14   15  16  17  18  19  20
 # ^----------- len vai te dá a quantidade de casas que esta sendo utilizada -------------^ = neste caso são 21 caracteres
