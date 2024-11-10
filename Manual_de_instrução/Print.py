@@ -56,7 +56,7 @@
 #                   AULAS DE MÓDULOS
 # IMPORT MATH = Biblioteca matemática
 # Ceil = arredondamento para cima do numero
-# Floor = arredondamento para baix do numero
+# Floor = arredondamento para baixo do numero
 # trunc = vai truncar o numero, fixar um numero sem arredondar nem pra cima nem pra baixo
 # pow = vai fazer o calculo de potencia (semelhante ao calculo de **)
 # sqrt = vai calcular a raiz quadrada 
