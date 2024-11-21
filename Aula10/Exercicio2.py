@@ -1,4 +1,4 @@
-# Façã um programa que entre 20 e 50 gere 4 numeros aleatorios e depois os ordena de forma decrescente.
+# Faça um programa que entre 20 e 50 gere 4 numeros aleatorios e depois os ordena de forma decrescente.
 
 import random
 

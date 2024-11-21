@@ -7,7 +7,7 @@ salario = float(input('Qual é o valor do seu salário? '))
 anos = int(input('Quantos anos pretende pagar? '))
 prestacao = casa / (anos * 12)
 minimo = salario * 30 / 100
-print(f'Para pagar uma casa de R${casa:.2f} em {anos} anos a prestação serpa de R${prestacao:.2f}')
+print(f'Para pagar uma casa de R${casa:.2f} em {anos} anos a prestação ficou de R${prestacao:.2f}')
 if prestacao <= minimo:
     print("Empréstimo liberado ")
 else:
