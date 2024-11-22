@@ -1,4 +1,4 @@
-# Faça um programa par um lava rápido onde:
+# Faça um programa para um lava rápido onde:
 #1= Lavagem Completa a R$50,00
 #2= Lavagem básica a R$35,00
 # Caso o usuário queira, o pretinho custa mais R$ 5,00
