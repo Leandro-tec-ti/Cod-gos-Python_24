@@ -27,7 +27,8 @@ for c, v in enumerate(valores): #<<-- "enumerate()" atribuindo ao "c" antes do "
 print('cheguei ao final da lista.')
 
 a = [2, 3, 4, 7]
-b = a[:]#<<-- IMPORTANTE! sinalização em "[:]" me permite apenas ter uma copia do A para B, ou seja não fazendo uma ligação entre as listas.
+b = a[:]#<<-- IMPORTANTE! sinalização em "[:]" me permite apenas ter uma copia do A para B, ou seja não 
+#                                              fazendo uma ligação entre as listas.
 b[2] = 8
 print(f'Lista A: {a}')
 print(f'Lista B: {b}')

@@ -44,6 +44,7 @@
 #time.sleep(1) = é o tempo utilizado em segundos para a execurtar uma proxima contagem.
 
 #.lower() = deixa todas as letras em minúculos.
+#.upper() = deixaa todas as letras em maisculo.
 #                             Base de Calculos
 # IMPORTANTE: ORDEM DE PROCEDENCIA, () PRIMEIRO SE RESOLVE O QUE ESTA DENTRO DE PARENTES
 # IMPORTANTE: ORDEM DE PROCEDENCIA, ** SEGUNDO SE RESOLVER TUDO QUE FOR POTENCIA
